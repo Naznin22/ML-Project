@@ -1,5 +1,5 @@
 # YOLO Object Detection with Custom Bangla Labels
-This project demonstrates object detection using the YOLO (You Only Look Once) model implemented with Darkflow, a TensorFlow adaptation of Darknet. The project also modifies YOLO's labels to use Bangla instead of English for detection outputs. 
+This project demonstrates object detection using the YOLO (You Only Look Once) model implemented with Darkflow, a TensorFlow adaptation of Darknet. Using YOLO for object detection is advantageous due to its speed and efficiency in real-time applications. YOLO processes the entire image at once, which allows it to detect multiple objects in a single evaluation. This makes it particularly suitable for applications requiring quick responses, such as autonomous driving or surveillance. Additionally, YOLO's architecture is designed to provide a balance between accuracy and performance, making it a popular choice in the field of computer vision.
 
 ## Overview
 The goal of this project is to perform object detection on an image and display the labels in Bangla. The model is set up with YOLO's pre-trained weights, and it uses TensorFlow 1.15 and OpenCV for image processing. Bangla labels are applied by mapping the COCO dataset's default English labels to their corresponding Bangla translations.
